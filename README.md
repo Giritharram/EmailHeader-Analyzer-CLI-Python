@@ -1,6 +1,6 @@
 # EmailHeader-Analyzer with OSINT 📧🕵️‍♂️
 
-Welcome to the Email Header Analyzer CLI tool which is written in Python that empowers you to dissect and analyze email headers. This CLI tool not only offers the ability to parse and interpret email headers but also integrates OSINT (Open-Source Intelligence) features to provide a deeper understanding of the email's context.
+Welcome to the Email Header Analyzer CLI tool which is written in Python, empowering you to dissect and analyze email headers. This CLI tool not only offers the ability to parse and interpret email headers but also integrates OSINT (Open-Source Intelligence) features to provide a deeper understanding of the email's context.
 
 
 ## 🛠️ How To Install
