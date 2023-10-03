@@ -9,10 +9,11 @@ pip3 install -r requirements.txt
 
 ## How To Run
 
-Place Your 'TXT' or 'EML' file inside current directory. Then create a folder named 'Input' and place a dummy file named 'sample.txt'
+Place Your 'TXT' or 'EML' file inside the current directory. Then create a folder named 'Input' and place a dummy file named 'sample.txt'
+
+Create a VirusTotal account and use your own API key, you can do it [here](https://www.virustotal.com/gui/home/search)
 
 Place your Virustotal API key inside the OSINT_Functions.py file [Assign it to vt_access_token variable]
-
 ```
 python3 main.py 'file' 'argument'
 ```
@@ -32,5 +33,3 @@ Give any one of the following arguments
  -IPpassive        -> Passive DNS Information
  -Whois            -> Whois Information
  ```
- 
- Create a VirusTotal account and use your own API key, you can do it [here](https://www.virustotal.com/gui/home/search)
