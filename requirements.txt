@@ -1,0 +1,6 @@
+colorama
+prettytable
+python-nmap
+python-whois
+python-dateutil
+requests
