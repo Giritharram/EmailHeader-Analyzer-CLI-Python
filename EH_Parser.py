@@ -233,7 +233,7 @@ def call_EH_functions():
         no_of_hops()
         protocol_used(a)
         time_stamp(a)
-        t = PrettyTable(['Hop','Sender', 'Reciever','Protocol','Time','Delay'])
+        t = PrettyTable(['Hop','Sender', 'receiver','Protocol','Time','Delay'])
         t.hrules=ALL
         for (a,b,c,d,e,f) in zip(no_of_hops_list,sender_host_list,receiver_host_list,protocol_used_list,final_timestamp_list,time_difference_list):
             t.add_row([a,b,c,d,e,f])
